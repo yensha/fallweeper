@@ -1,0 +1,321 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.14f1 (eff2de9070d8) revision 15725278'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'zh' Physical Memory: 32636 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\unity\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+D:/unity/project/fallweeper
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+61552
+Successfully changed project path to: D:/unity/project/fallweeper
+D:/unity/project/fallweeper
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [12640] Host "[IP] 192.168.0.58 [Port] 0 [Flags] 2 [Guid] 3702322107 [EditorId] 3702322107 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-97VGMIV) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [12640] Host "[IP] 192.168.0.58 [Port] 0 [Flags] 2 [Guid] 3702322107 [EditorId] 3702322107 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-97VGMIV) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
+Refreshing native plugins compatible for Editor in 6.11 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.14f1 (eff2de9070d8)
+[Subsystems] Discovering subsystems at path D:/unity/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/unity/project/fallweeper/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4060 Ti (ID=0x2803)
+    Vendor:   NVIDIA
+    VRAM:     7963 MB
+    Driver:   31.0.15.3623
+Initialize mono
+Mono path[0] = 'D:/unity/Editor/Data/Managed'
+Mono path[1] = 'D:/unity/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/unity/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56176
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/unity/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002788 seconds.
+- Loaded All Assemblies, in  0.300 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.244 seconds
+Domain Reload Profiling: 544ms
+	BeginReloadAssembly (96ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (47ms)
+	LoadAllAssembliesAndSetupDomain (119ms)
+		LoadAssemblies (95ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (117ms)
+			TypeCache.Refresh (116ms)
+				TypeCache.ScanAssembly (106ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (244ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (192ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (128ms)
+			ProcessInitializeOnLoadMethodAttributes (49ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.503 seconds
+Refreshing native plugins compatible for Editor in 1.85 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.495 seconds
+Domain Reload Profiling: 998ms
+	BeginReloadAssembly (134ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (24ms)
+	RebuildCommonClasses (26ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (31ms)
+	LoadAllAssembliesAndSetupDomain (304ms)
+		LoadAssemblies (229ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (150ms)
+			TypeCache.Refresh (133ms)
+				TypeCache.ScanAssembly (120ms)
+			ScanForSourceGeneratedMonoScriptInfo (13ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (496ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (363ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (52ms)
+			ProcessInitializeOnLoadAttributes (282ms)
+			ProcessInitializeOnLoadMethodAttributes (18ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 2.53 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3082 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 32 unused Assets / (56.7 KB). Loaded Objects now: 3544.
+Memory consumption went from 122.2 MB to 122.2 MB.
+Total: 3.030000 ms (FindLiveObjects: 0.249600 ms CreateObjectMapping: 0.174600 ms MarkObjects: 2.406800 ms  DeleteObjects: 0.198300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 405269.364675 seconds.
+  path: Assets/Resource/Selcuk Gerceker/Toon Environments - World Creator Pack Lite/Materials/Candyland_Asphalt.mat
+  artifactKey: Guid(1c802a906d69bf74aa77329fd96d59af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/Selcuk Gerceker/Toon Environments - World Creator Pack Lite/Materials/Candyland_Asphalt.mat using Guid(1c802a906d69bf74aa77329fd96d59af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c53e55f1bffe29e7da90f267f24d6c65') in 0.275904 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Resource/Selcuk Gerceker/Toon Environments - World Creator Pack Lite/Materials/Fall.mat
+  artifactKey: Guid(f15d3e742a1142741b5ebcba4fd016fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/Selcuk Gerceker/Toon Environments - World Creator Pack Lite/Materials/Fall.mat using Guid(f15d3e742a1142741b5ebcba4fd016fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab92242ca064d0c482aefa505ca3fca4') in 0.013062 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Resource/Selcuk Gerceker/Toon Environments - World Creator Pack Lite/Materials/MyOwnTheme.mat
+  artifactKey: Guid(6ca91f1a031a8ba4080fa6a8c8bb9e7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/Selcuk Gerceker/Toon Environments - World Creator Pack Lite/Materials/MyOwnTheme.mat using Guid(6ca91f1a031a8ba4080fa6a8c8bb9e7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b19c7d1bdc131a116f1316d7aa3126ee') in 0.012504 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Resource/Selcuk Gerceker/Toon Environments - World Creator Pack Lite/Materials/Spring.mat
+  artifactKey: Guid(a44d3cec97d015340944a26efb1f7971) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/Selcuk Gerceker/Toon Environments - World Creator Pack Lite/Materials/Spring.mat using Guid(a44d3cec97d015340944a26efb1f7971) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84fd33e372061addd4ebdaf0cefba832') in 0.010806 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Resource/Selcuk Gerceker/Toon Environments - World Creator Pack Lite/Materials/Fall_Asphalt.mat
+  artifactKey: Guid(5f2c2409442022c43a94fbeda4a282df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/Selcuk Gerceker/Toon Environments - World Creator Pack Lite/Materials/Fall_Asphalt.mat using Guid(5f2c2409442022c43a94fbeda4a282df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b20e5afbe4411d4ec22f41acef3cede3') in 0.014229 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Resource/Selcuk Gerceker/Toon Environments - World Creator Pack Lite/Materials/Desert_Asphalt.mat
+  artifactKey: Guid(90de90912ef346643aab87ea7b08807b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/Selcuk Gerceker/Toon Environments - World Creator Pack Lite/Materials/Desert_Asphalt.mat using Guid(90de90912ef346643aab87ea7b08807b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f39eb036b4e3960db37c217164489081') in 0.011912 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 3.919740 seconds.
+  path: Assets/Resource/Selcuk Gerceker/Toon Environments - World Creator Pack Lite/Models/Props/Cloud_Long.fbx
+  artifactKey: Guid(d69e5816f93055e49a22465ac0e99b4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/Selcuk Gerceker/Toon Environments - World Creator Pack Lite/Models/Props/Cloud_Long.fbx using Guid(d69e5816f93055e49a22465ac0e99b4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '297ec1b9bfd463b0cc8c65dcc61aeb89') in 0.121791 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Resource/Selcuk Gerceker/Toon Environments - World Creator Pack Lite/Models/Props/Stone1.fbx
+  artifactKey: Guid(c66ae5d8378321a4d8d6876b0dfbd9eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/Selcuk Gerceker/Toon Environments - World Creator Pack Lite/Models/Props/Stone1.fbx using Guid(c66ae5d8378321a4d8d6876b0dfbd9eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed372f4cd4396ed2e09de52cda87afe7') in 0.013075 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Resource/Selcuk Gerceker/Toon Environments - World Creator Pack Lite/Models/Props/Tree_Chopped.fbx
+  artifactKey: Guid(991cfd69cbe918147a8b0d6390e3ce60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/Selcuk Gerceker/Toon Environments - World Creator Pack Lite/Models/Props/Tree_Chopped.fbx using Guid(991cfd69cbe918147a8b0d6390e3ce60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a11f13d90dbf9b4047362532b51e1e74') in 0.013162 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Resource/Selcuk Gerceker/Toon Environments - World Creator Pack Lite/Models/Props/Grass.fbx
+  artifactKey: Guid(7292cbbcd062e3440b9895a64d229825) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/Selcuk Gerceker/Toon Environments - World Creator Pack Lite/Models/Props/Grass.fbx using Guid(7292cbbcd062e3440b9895a64d229825) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a63735b1b5b9d016b281403221840908') in 0.014906 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Resource/Selcuk Gerceker/Toon Environments - World Creator Pack Lite/Models/Props/Rock4.fbx
+  artifactKey: Guid(0c0ba75d16315fd45b7dd51920b32045) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/Selcuk Gerceker/Toon Environments - World Creator Pack Lite/Models/Props/Rock4.fbx using Guid(0c0ba75d16315fd45b7dd51920b32045) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7f4d8ff72e55e99d9a4d0b82a35c4ae') in 0.013223 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Resource/Selcuk Gerceker/Toon Environments - World Creator Pack Lite/Models/Props/Tree.fbx
+  artifactKey: Guid(9515c260d15c8d9459e425512a9d8366) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/Selcuk Gerceker/Toon Environments - World Creator Pack Lite/Models/Props/Tree.fbx using Guid(9515c260d15c8d9459e425512a9d8366) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8aeb16633f13a5a2f01d7936c2a2d401') in 0.022978 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 21.354380 seconds.
+  path: Assets/Resource/Selcuk Gerceker/Toon Environments - World Creator Pack Lite/Models/Tiles/Tile_Corner.fbx
+  artifactKey: Guid(d5c408595be50514dabb69674e810394) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/Selcuk Gerceker/Toon Environments - World Creator Pack Lite/Models/Tiles/Tile_Corner.fbx using Guid(d5c408595be50514dabb69674e810394) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e9812e51f715ad639082cb8ed697049') in 0.012628 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Resource/Selcuk Gerceker/Toon Environments - World Creator Pack Lite/Models/Tiles/Tile_Road_End_Edge.fbx
+  artifactKey: Guid(44533bb5cb0bd734eb62f2592c7d8856) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/Selcuk Gerceker/Toon Environments - World Creator Pack Lite/Models/Tiles/Tile_Road_End_Edge.fbx using Guid(44533bb5cb0bd734eb62f2592c7d8856) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e37c21e26ae088b409b24c870771103') in 0.013548 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Resource/Selcuk Gerceker/Toon Environments - World Creator Pack Lite/Models/Tiles/Tile_Corner_Foundation_End.fbx
+  artifactKey: Guid(e9e741cabe301f24e894a13d2a24c757) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/Selcuk Gerceker/Toon Environments - World Creator Pack Lite/Models/Tiles/Tile_Corner_Foundation_End.fbx using Guid(e9e741cabe301f24e894a13d2a24c757) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48dfa6d72ad6c63c6f97cf1e7721b637') in 0.013490 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Resource/Selcuk Gerceker/Toon Environments - World Creator Pack Lite/Models/Tiles/Tile_Road_Solo_Corner.fbx
+  artifactKey: Guid(64ac115e5574fea44b039f51e7422c61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/Selcuk Gerceker/Toon Environments - World Creator Pack Lite/Models/Tiles/Tile_Road_Solo_Corner.fbx using Guid(64ac115e5574fea44b039f51e7422c61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cbf60e0d791cf03d5badfbec357deb4') in 0.013525 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Resource/Selcuk Gerceker/Toon Environments - World Creator Pack Lite/Models/Tiles/Tile_Solo_Island.fbx
+  artifactKey: Guid(6a8df4b09a45ec14db83a93030c3bb06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/Selcuk Gerceker/Toon Environments - World Creator Pack Lite/Models/Tiles/Tile_Solo_Island.fbx using Guid(6a8df4b09a45ec14db83a93030c3bb06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b25748670cbe8d2498b20995dd6c7bb6') in 0.013229 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: 因為執行緒結束或應用程式要求，所以已中止 I/O 操作。
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
