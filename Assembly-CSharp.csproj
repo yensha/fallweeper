@@ -60,7 +60,9 @@
     <Analyzer Include="D:\unity\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Script\BrickSpwaner.cs" />
+    <Compile Include="Assets\Script\MainGame\MainControl.cs" />
+    <Compile Include="Assets\Script\MainGame\PlayerAction.cs" />
+    <Compile Include="Assets\Script\MainGame\BrickSpwaner.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Resource\Little_GhostLP(FREE)\Documentation\Documentation(Little Ghost FREE).txt" />
