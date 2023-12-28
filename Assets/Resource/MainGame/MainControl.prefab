@@ -44,5 +44,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e7884a8d15d61fa4396b9533ad0fcd45, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MainCamera: {fileID: 0}
   BrickSpwaner: {fileID: 0}
-  Player: {fileID: 0}
+  Player1: {fileID: 0}

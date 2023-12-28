@@ -149,6 +149,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 8969617228950459176, guid: 6c212b124684bbe499943b14748f37e2, type: 3}
     - target: {fileID: 2055273383131393814, guid: 070c29890a899b340973a1cad5e98f3b, type: 3}
+      propertyPath: MainCamera
+      value: 
+      objectReference: {fileID: 963194225}
+    - target: {fileID: 2055273383131393814, guid: 070c29890a899b340973a1cad5e98f3b, type: 3}
       propertyPath: BrickSpwaner
       value: 
       objectReference: {fileID: 494633319}
@@ -302,6 +306,7 @@ GameObject:
   - component: {fileID: 963194228}
   - component: {fileID: 963194227}
   - component: {fileID: 963194226}
+  - component: {fileID: 963194229}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -383,6 +388,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 30, y: 0, z: 0}
+--- !u!114 &963194229
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 963194225}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb424883a398bf349bf95ee9381be21d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  axes: 0
 --- !u!1001 &1220876871
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -391,6 +409,42 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2643508786380746387, guid: 86f407da6e999934386ad2ca1d6eddff, type: 3}
+      propertyPath: Flag
+      value: 
+      objectReference: {fileID: 1897071208493622500, guid: bfd20e94c5dc7f847ada372042d91383, type: 3}
+    - target: {fileID: 2643508786380746387, guid: 86f407da6e999934386ad2ca1d6eddff, type: 3}
+      propertyPath: Num1
+      value: 
+      objectReference: {fileID: 6453396786385848331, guid: 5d690025a604f8b43bbb2ca43eea0426, type: 3}
+    - target: {fileID: 2643508786380746387, guid: 86f407da6e999934386ad2ca1d6eddff, type: 3}
+      propertyPath: Num2
+      value: 
+      objectReference: {fileID: 7071938942273685453, guid: f733b610f8426cd4c8b3d75096a2ccc1, type: 3}
+    - target: {fileID: 2643508786380746387, guid: 86f407da6e999934386ad2ca1d6eddff, type: 3}
+      propertyPath: Num3
+      value: 
+      objectReference: {fileID: 2698709229249992255, guid: 26712664c5ef08f4bb81efe0a2ac0720, type: 3}
+    - target: {fileID: 2643508786380746387, guid: 86f407da6e999934386ad2ca1d6eddff, type: 3}
+      propertyPath: Num4
+      value: 
+      objectReference: {fileID: 5585225509791846350, guid: 753e070e1ddffff40a37389b00ebf5aa, type: 3}
+    - target: {fileID: 2643508786380746387, guid: 86f407da6e999934386ad2ca1d6eddff, type: 3}
+      propertyPath: Num5
+      value: 
+      objectReference: {fileID: 7015257542106573590, guid: 16c8f92798b5c544bb15807ca97d5a5a, type: 3}
+    - target: {fileID: 2643508786380746387, guid: 86f407da6e999934386ad2ca1d6eddff, type: 3}
+      propertyPath: Num6
+      value: 
+      objectReference: {fileID: 9026703394640327242, guid: 1f9edefc724db4246b47219b4c1e607e, type: 3}
+    - target: {fileID: 2643508786380746387, guid: 86f407da6e999934386ad2ca1d6eddff, type: 3}
+      propertyPath: Num7
+      value: 
+      objectReference: {fileID: 997821377733149916, guid: 3cb6b7f83790e5b40bbd4143069fcb84, type: 3}
+    - target: {fileID: 2643508786380746387, guid: 86f407da6e999934386ad2ca1d6eddff, type: 3}
+      propertyPath: Num8
+      value: 
+      objectReference: {fileID: 5264721193358511263, guid: 8bc8c314009a04940b082c226be19348, type: 3}
     - target: {fileID: 2643508786380746387, guid: 86f407da6e999934386ad2ca1d6eddff, type: 3}
       propertyPath: MainCam
       value: 
@@ -403,6 +457,18 @@ PrefabInstance:
       propertyPath: MainControl
       value: 
       objectReference: {fileID: 1956721776}
+    - target: {fileID: 2643508786380746387, guid: 86f407da6e999934386ad2ca1d6eddff, type: 3}
+      propertyPath: FlagRecycler
+      value: 
+      objectReference: {fileID: 439915110648709868, guid: acd29b605e1379b4da533e742c31d412, type: 3}
+    - target: {fileID: 2643508786380746387, guid: 86f407da6e999934386ad2ca1d6eddff, type: 3}
+      propertyPath: FlagRecycler_clone
+      value: 
+      objectReference: {fileID: 439915110648709868, guid: acd29b605e1379b4da533e742c31d412, type: 3}
+    - target: {fileID: 2643508786380746387, guid: 86f407da6e999934386ad2ca1d6eddff, type: 3}
+      propertyPath: Brick_Recycle_clone
+      value: 
+      objectReference: {fileID: 1524312209451181502, guid: db9b1780f18ded7429fc4d74522d7951, type: 3}
     - target: {fileID: 7776531957655018975, guid: 86f407da6e999934386ad2ca1d6eddff, type: 3}
       propertyPath: m_Name
       value: BrickSpwaner

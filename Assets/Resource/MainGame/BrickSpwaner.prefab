@@ -49,3 +49,12 @@ MonoBehaviour:
   Brick_Normal: {fileID: 6201911103572959840, guid: cefbe29102a22eb47ae301b5cb0de41a, type: 3}
   Brick_Safe: {fileID: 3879384597795472015, guid: 80e2c9d030a6c3e4d87d3c24122c738e, type: 3}
   Brick_Bumb: {fileID: 6411349617527654385, guid: f170f7f871c530d4ea4839b0b3b588de, type: 3}
+  Flag: {fileID: 0}
+  Num1: {fileID: 0}
+  Num2: {fileID: 0}
+  Num3: {fileID: 0}
+  Num4: {fileID: 0}
+  Num5: {fileID: 0}
+  Num6: {fileID: 0}
+  Num7: {fileID: 0}
+  Num8: {fileID: 0}
