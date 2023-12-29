@@ -89,6 +89,7 @@ public class BrickSpwaner : MonoBehaviour
                 }
             }
             GameObject bumbbrick = Instantiate(Brick_Bumb);
+            bumbbrick.gameObject.SetActive(false);
             bumbbrick.transform.localPosition = new Vector3(BumbList[i] / length * 2.4f, 0, BumbList[i] % length * 2.4f);
             ListBumbBrick.Add((BumbList[i] / length, BumbList[i] % length), bumbbrick);
         }
