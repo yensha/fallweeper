@@ -30,8 +30,6 @@ WASD第三人稱
 角色傳入應該可行(tag為player)
 
 #選角
-動畫有做一個c01
-跟character_move的Script可做配合
-基本上選角跟profit的Scene都完成了
-可能有點小bug要再看看
-有換天空看主關卡要不要一起換
+場景更改完畢
+start中選角範圍邦更新
+
